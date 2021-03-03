@@ -1,0 +1,4 @@
+.loginsection{margin: auto; height: 100vh; display: table;}
+.loginsection form{display: table-cell; vertical-align: middle}
+.loginImg{background-image: url("/images/login/Login_img.jpg"); background-size: cover; height: 100vh; display: table;}
+.loginRtText{display: table-cell; vertical-align: middle; font-size: 4em; color: #fff; padding-left: 2em;}

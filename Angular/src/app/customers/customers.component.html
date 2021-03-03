@@ -1,0 +1,16 @@
+<p>Customers Page! {{todaydate}}</p>
+<p>Time: {{time}}</p>
+<p>API Data</p>
+<div *ngFor="let item of apiData.data" class="flex">
+	<div class="card" >
+		<div class="card-header">
+			{{item.employee_name | uppercase}}
+		</div>
+		<div class="card-body">
+			{{item|json}}
+		</div>
+	</div>
+	<div class="clearfix"><br></div>
+</div>
+
+<router-outlet></router-outlet>
